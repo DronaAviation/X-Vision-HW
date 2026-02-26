@@ -254,6 +254,189 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "DA-Library:LED_5mm_TH"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -3.302 1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.27 1.27)
+						(bold yes)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "DA-Footprint-Library:LED_5mm"
+				(at 0.254 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part No." ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED, 5mm, TH"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_5mm_TH_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0.508) (xy 2.032 1.27) (xy 1.524 1.27) (xy 2.032 1.27) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0.508) (xy 3.048 1.27) (xy 2.54 1.27) (xy 3.048 1.27) (xy 3.048 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_5mm_TH_1_1"
+				(polyline
+					(pts
+						(xy -0.762 0.762) (xy -0.762 -0.762) (xy 0.762 0) (xy -0.762 0.762)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.762) (xy 0.762 -0.762)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 3.048)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 3.048)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "DA-Library:MCU-STM32G030F6P6"
 			(pin_numbers
 				(hide yes)
@@ -2722,16 +2905,15 @@
 	)
 	(symbol
 		(lib_id "DA-Library:Optic-PAW3903E1")
-		(at 179.07 96.52 0)
+		(at 173.99 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a8aa94bb-0f21-4795-a2ec-8be6ab86f5cd")
 		(property "Reference" "U2"
-			(at 167.132 83.058 0)
+			(at 162.052 88.138 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2743,7 +2925,7 @@
 			)
 		)
 		(property "Value" "PAW3903"
-			(at 196.596 115.57 0)
+			(at 171.196 119.888 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2755,7 +2937,7 @@
 			)
 		)
 		(property "Footprint" "DA-Footprint-Library:LGA-28-PAW3903"
-			(at 178.054 129.032 0)
+			(at 172.974 134.112 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2767,7 +2949,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.166 118.618 0)
+			(at 180.086 123.698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2776,7 +2958,7 @@
 			)
 		)
 		(property "Description" "Optical Motion Tracking Chip"
-			(at 181.356 130.556 0)
+			(at 176.276 135.636 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2787,7 +2969,7 @@
 			)
 		)
 		(property "Part No." "PAW3903E1-TXQ"
-			(at 180.34 124.714 0)
+			(at 175.26 129.794 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2798,7 +2980,7 @@
 			)
 		)
 		(property "LCSC" "PAW3903E1-TXQ"
-			(at 180.086 126.238 0)
+			(at 175.006 131.318 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2899,6 +3081,184 @@
 			(project ""
 				(path "/35e64a9a-350b-4327-8ce0-eb46d8f6840b"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DA-Library:LED_5mm_TH")
+		(at 93.98 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4a24f36-f869-4ff4-a512-f87d706744bb")
+		(property "Reference" "D2"
+			(at 90.678 109.22 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "IR-TSAL6400"
+			(at 95.0849 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DA-Footprint-Library:LED_5mm"
+			(at 94.234 106.426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Infrared Emitters 940nm,T-1.75 50mW/sr,+/-25deg."
+			(at 93.98 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." "TSAL6400"
+			(at 93.98 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "TSAL6400"
+			(at 93.98 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "07aa0736-b412-4eb2-8b8b-cabc0ca1f838")
+		)
+		(pin "1"
+			(uuid "bead41f1-e0e2-401f-877b-fa1f84810ef7")
+		)
+		(instances
+			(project "X-Vision-HW"
+				(path "/35e64a9a-350b-4327-8ce0-eb46d8f6840b"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DA-Library:LED_5mm_TH")
+		(at 93.98 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb6d4725-da77-48aa-a93e-f12321ff2058")
+		(property "Reference" "D1"
+			(at 90.678 101.6 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "IR-TSAL6400"
+			(at 95.0849 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DA-Footprint-Library:LED_5mm"
+			(at 94.234 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Infrared Emitters 940nm,T-1.75 50mW/sr,+/-25deg."
+			(at 93.98 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." "TSAL6400"
+			(at 93.98 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "TSAL6400"
+			(at 93.98 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7ab91c3a-0a46-4d38-be4d-3a6ce9b21a9b")
+		)
+		(pin "1"
+			(uuid "47982f8c-81df-4203-bdb7-84bb081764b0")
+		)
+		(instances
+			(project ""
+				(path "/35e64a9a-350b-4327-8ce0-eb46d8f6840b"
+					(reference "D1")
 					(unit 1)
 				)
 			)
